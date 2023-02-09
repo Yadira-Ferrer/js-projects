@@ -71,7 +71,7 @@ main {
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.716);
 }
 .player--active .name {
   font-weight: 700;
@@ -171,7 +171,17 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #8c51d6;
+}
+
+.player--winner .score {
+  font-weight: 700;
+  color: #8c51d6;
+}
+
+.player--winner .current {
+  font-weight: 700;
+  background-color: #8c51d6;
 }
 
 .hidden {
